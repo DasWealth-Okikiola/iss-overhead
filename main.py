@@ -11,7 +11,6 @@ twilio_sid = "your twilio sid"
 twilio_phone_number = "your twilio phone number"
 to = "your receiver  phone"
 
-
 def is_iss_nearby():
     response = requests.get(url="http://api.open-notify.org/iss-now.json")
     response.raise_for_status()
